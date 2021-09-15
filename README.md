@@ -19,6 +19,7 @@
 - Model: **Random Forest**
 - Score: **0.8226**
 - Rank: **637**
+- Code: [here](https://github.com/bitRondo/MLProject/blob/master/DrivenData_PumpItUp_Disura_sub1.ipynb)
 - Proof:
 
 ![Sub1_Proof1](sub1_proof1.png)
