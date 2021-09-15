@@ -1,11 +1,5 @@
 # Submission to "Pump it Up: Data Mining the Water Table" competition on DrivenData
 
-## Submission statistics
-### Submission #1
-- Model: **Random Forest**
-- Score: **0.8226**
-- Rank: **637**
-
 ## Preprocessing techniques
 
 1. Imputed missing values in the following categorical columns with the most frequent value in each of them: `'funder', 'installer', 'subvillage', 'public_meeting', 'scheme_management', 'scheme_name', 'permit'`.
@@ -19,3 +13,14 @@
 2. Separated out year and month as `year_recorded` and `month_recorded` respectively, from `date_recorded`.
 3. Excluded columns `id, date_recorded, recorded_by, num_private` from training features.
 4. Applied Label Encoding on categorical features
+
+## Submission statistics
+### Submission #1
+- Model: **Random Forest**
+- Score: **0.8226**
+- Rank: **637**
+- Proof:
+
+![Sub1_Proof1](sub1_proof1.png)
+
+![Sub1_Proof2](sub1_proof2.png)
